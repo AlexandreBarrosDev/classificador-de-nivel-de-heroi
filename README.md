@@ -1,6 +1,6 @@
 ## Classificador de nível de herói
 Desafio proposto pelo instrutor Felipe Aguiar do curso de lógica de programação da Dio.
-- O desafio foi completo com uma estrutura switch case seguindo as devidas instruões de xp e classificação de nível, porém um possivel problema foi encontrado no algoritimo pois se o xp for igual a 1000, o programa não atribuirá uma classificação ao herói, para contornar o problema foi implementado o operador de comparação "<=" ao programa.
+- O desafio foi completo com uma estrutura switch case seguindo as devidas instruões de xp e classificação de nível, porém um possivel problema foi encontrado no algoritimo pois se o xp for igual a 1000, o programa não atribuirá uma classificação ao herói, para contornar o problema foi implementado o operador de comparação "<=" no case inicial do programa.
 
 ## Instruções para entrega
 # 1️⃣ Desafio Classificador de nível de Herói
