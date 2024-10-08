@@ -1,32 +1,32 @@
-let nomeHeroi = "Axel";
-let xpHeroi = 7500;
-let nivelHeroi;
+let heroName = "Axel";
+let heroXp = 7500;
+let heroLevel;
 
 switch(true) {
-    case (xpHeroi <= 1000):
-        nivelHeroi = "Ferro";
+    case (heroXp <= 1000):
+        heroLevel = "Ferro";
         break;
-    case (xpHeroi > 1000 && xpHeroi <= 2000):
-        nivelHeroi = "Bronze";
+    case (heroXp > 1000 && heroXp <= 2000):
+        heroLevel = "Bronze";
         break;
-    case (xpHeroi > 2000 && xpHeroi <= 5000):
-        nivelHeroi = "Prata";
+    case (heroXp > 2000 && heroXp <= 5000):
+        heroLevel = "Prata";
         break;
-    case (xpHeroi >= 5001 && xpHeroi <= 7000):
-        nivelHeroi = "Ouro";
+    case (heroXp >= 5001 && heroXp <= 7000):
+        heroLevel = "Ouro";
         break;
-    case (xpHeroi >= 7001 && xpHeroi <= 8000):
-        nivelHeroi = "Platina";
+    case (heroXp >= 7001 && heroXp <= 8000):
+        heroLevel = "Platina";
         break;
-    case (xpHeroi >= 8001 && xpHeroi <= 9000):
-        nivelHeroi = "Ascendente";
+    case (heroXp >= 8001 && heroXp <= 9000):
+        heroLevel = "Ascendente";
         break;
-    case (xpHeroi >= 9001 && xpHeroi <= 10000):
-        nivelHeroi = "Imortal";
+    case (heroXp >= 9001 && heroXp <= 10000):
+        heroLevel = "Imortal";
         break;
     default:
-        nivelHeroi = "Radiante";
+        heroLevel = "Radiante";
         break;
 }
 
-console.log("O Herói de nome " + nomeHeroi + " está no nível de " + nivelHeroi + ".");
+console.log(`O Herói de nome ${heroName} está no nível de ${heroLevel}.`);
